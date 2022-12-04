@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 data = File.open("strategy.txt").read
 
 array = data.split("\n")
